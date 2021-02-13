@@ -5,7 +5,7 @@ import "./App.css";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/app">
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
