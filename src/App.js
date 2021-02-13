@@ -5,7 +5,7 @@ import "./App.css";
 
 function App() {
   return (
-    <Router basename="/app">
+    <Router basename={process.env.REACT_APP_DIRECTORY}>
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
